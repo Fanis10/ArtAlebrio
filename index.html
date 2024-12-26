@@ -2099,7 +2099,7 @@
                             </div>
                             <div class="header__search">
                                 <input type="search" placeholder="Поиск">
-                                <button class="header__search-btn">
+                                <button class="header__search-btn open-search">
                                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8.55259 1C7.05883 1 5.59862 1.44295 4.3566 2.27284C3.11458 3.10273 2.14655 4.28228 1.57491 5.66234C1.00327 7.04239 0.853706 8.56097 1.14512 10.026C1.43654 11.4911 2.15586 12.8368 3.21211 13.8931C4.26835 14.9493 5.6141 15.6686 7.07916 15.9601C8.54421 16.2515 10.0628 16.1019 11.4428 15.5303C12.8229 14.9586 14.0025 13.9906 14.8323 12.7486C15.6622 11.5066 16.1052 10.0464 16.1052 8.55259C16.1051 6.54956 15.3093 4.6286 13.8929 3.21224C12.4766 1.79589 10.5556 1.00013 8.55259 1Z" stroke="#604093" stroke-width="1.5" stroke-miterlimit="10"/>
                                         <path d="M14.1875 14.187L19.4621 19.4617" stroke="#604093" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -2348,6 +2348,20 @@
             </a>
         </div>
     </div>
+    <div class="header__search-mob">
+        <div class="header__search-close">
+            <img src="img/close.svg" alt="">
+        </div>
+        <div class="header__search">
+            <input type="search" placeholder="Поиск">
+            <button class="header__search-btn">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.55259 1C7.05883 1 5.59862 1.44295 4.3566 2.27284C3.11458 3.10273 2.14655 4.28228 1.57491 5.66234C1.00327 7.04239 0.853706 8.56097 1.14512 10.026C1.43654 11.4911 2.15586 12.8368 3.21211 13.8931C4.26835 14.9493 5.6141 15.6686 7.07916 15.9601C8.54421 16.2515 10.0628 16.1019 11.4428 15.5303C12.8229 14.9586 14.0025 13.9906 14.8323 12.7486C15.6622 11.5066 16.1052 10.0464 16.1052 8.55259C16.1051 6.54956 15.3093 4.6286 13.8929 3.21224C12.4766 1.79589 10.5556 1.00013 8.55259 1Z" stroke="#604093" stroke-width="1.5" stroke-miterlimit="10"/>
+                    <path d="M14.1875 14.187L19.4621 19.4617" stroke="#604093" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
     <div class="header__catalog-bg"></div>
 </header>
 		<main class="content">
@@ -2480,62 +2494,62 @@
 					<div class="events__inner">
 						<h2 class="events__title h2">Ближайшие события</h2>
 						<div class="events__cards">
-							<div class="event-card">
-								<a class="event-card__img" href="">
+							<a href="" class="event-card">
+								<div class="event-card__img">
 									<img src="img/events-img.png" alt="">
-								</a>
+								</div>
 								<div class="event-card__desc">
-									<a class="event-card__title" href="">Выставки</a>
-									<a class="event-card__link" href="">
+									<div class="event-card__title">Выставки</div>
+									<div class="event-card__link">
 										<span>Перейти в раздел</span>
 										<i>
 											<img src="img/right-arrow.svg" alt="">
 										</i>
-									</a>
+									</div>
 								</div>
-							</div>
-							<div class="event-card">
-								<a class="event-card__img" href="">
+							</a>
+							<a href="" class="event-card">
+								<div class="event-card__img">
 									<img src="img/events-img2.png" alt="">
-								</a>
+								</div>
 								<div class="event-card__desc">
-									<a class="event-card__title" href="">Ярмарки</a>
-									<a class="event-card__link" href="">
+									<div class="event-card__title">Ярмарки</div>
+									<div class="event-card__link">
 										<span>Перейти в раздел</span>
 										<i>
 											<img src="img/right-arrow.svg" alt="">
 										</i>
-									</a>
+									</div>
 								</div>
-							</div>
-							<div class="event-card">
-								<a class="event-card__img" href="">
+							</a>
+							<a href="" class="event-card">
+								<div class="event-card__img">
 									<img src="img/events-img3.png" alt="">
-								</a>
+								</div>
 								<div class="event-card__desc">
-									<a class="event-card__title" href="">Конкурсы</a>
-									<a class="event-card__link" href="">
+									<div class="event-card__title">Конкурсы</div>
+									<div class="event-card__link">
 										<span>Перейти в раздел</span>
 										<i>
 											<img src="img/right-arrow.svg" alt="">
 										</i>
-									</a>
+									</div>
 								</div>
-							</div>
-							<div class="event-card">
-								<a class="event-card__img" href="">
+							</a>
+							<a href="" class="event-card">
+								<div class="event-card__img">
 									<img src="img/events-img4.png" alt="">
-								</a>
+								</div>
 								<div class="event-card__desc">
-									<a class="event-card__title" href="">Аукционы</a>
-									<a class="event-card__link" href="">
+									<div class="event-card__title">Аукционы</div>
+									<div class="event-card__link">
 										<span>Перейти в раздел</span>
 										<i>
 											<img src="img/right-arrow.svg" alt="">
 										</i>
-									</a>
+									</div>
 								</div>
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -2590,9 +2604,6 @@
 											</div>
 											<div class="work-card__group">
 												<div class="discount">Скидка 50%</div>
-												<div class="delivery">Бесплатная доставка</div>
-												<div class="hit">Хит продаж</div>
-												<div class="professional">Выбор профессионалов</div>
 												<div class="sale">Распродажа</div>
 											</div>
 											<div class="work-card__increase">
@@ -2609,7 +2620,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -2685,7 +2696,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -2757,7 +2768,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -2816,9 +2827,6 @@
 												<div class="swiper-button-next"></div>
 											</div>
 											<div class="work-card__group">
-												<div class="discount">Скидка 50%</div>
-												<div class="hit">Хит продаж</div>
-												<div class="professional">Выбор профессионалов</div>
 												<div class="sale">Распродажа</div>
 											</div>
 											<div class="work-card__increase">
@@ -2835,7 +2843,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -2910,7 +2918,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -2970,10 +2978,6 @@
 											</div>
 											<div class="work-card__group">
 												<div class="discount">Скидка 50%</div>
-												<div class="delivery">Бесплатная доставка</div>
-												<div class="hit">Хит продаж</div>
-												<div class="professional">Выбор профессионалов</div>
-												<div class="sale">Распродажа</div>
 											</div>
 											<div class="work-card__increase">
 												<img src="img/increase-icon.svg" alt="">
@@ -2989,7 +2993,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3064,7 +3068,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3136,7 +3140,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3212,7 +3216,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3284,7 +3288,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3356,7 +3360,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3428,7 +3432,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3504,7 +3508,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3576,7 +3580,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3648,7 +3652,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3720,7 +3724,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3885,22 +3889,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery17">
+															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery">
 																<img src="img/work-card__img.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery17">
+															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery">
 																<img src="img/work-card__img.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery17">
+															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery">
 																<img src="img/work-card__img.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery17">
+															<a href="img/work-card__img.png" class="work-card__img" data-fancybox="gallery">
 																<img src="img/work-card__img.png" alt="">
 															</a>
 														</div>
@@ -3912,9 +3916,6 @@
 											</div>
 											<div class="work-card__group">
 												<div class="discount">Скидка 50%</div>
-												<div class="delivery">Бесплатная доставка</div>
-												<div class="hit">Хит продаж</div>
-												<div class="professional">Выбор профессионалов</div>
 												<div class="sale">Распродажа</div>
 											</div>
 											<div class="work-card__increase">
@@ -3931,7 +3932,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -3964,22 +3965,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery18">
+															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery2">
 																<img src="img/work-card__img2.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery18">
+															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery2">
 																<img src="img/work-card__img2.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery18">
+															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery2">
 																<img src="img/work-card__img2.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery18">
+															<a href="img/work-card__img2.png" class="work-card__img" data-fancybox="gallery2">
 																<img src="img/work-card__img2.png" alt="">
 															</a>
 														</div>
@@ -4007,7 +4008,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4040,22 +4041,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery19">
+															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery3">
 																<img src="img/work-card__img3.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery19">
+															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery3">
 																<img src="img/work-card__img3.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery19">
+															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery3">
 																<img src="img/work-card__img3.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery19">
+															<a href="img/work-card__img3.png" class="work-card__img" data-fancybox="gallery3">
 																<img src="img/work-card__img3.png" alt="">
 															</a>
 														</div>
@@ -4079,7 +4080,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4112,22 +4113,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery20">
+															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery4">
 																<img src="img/work-card__img4.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery20">
+															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery4">
 																<img src="img/work-card__img4.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery20">
+															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery4">
 																<img src="img/work-card__img4.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery20">
+															<a href="img/work-card__img4.png" class="work-card__img" data-fancybox="gallery4">
 																<img src="img/work-card__img4.png" alt="">
 															</a>
 														</div>
@@ -4138,9 +4139,6 @@
 												<div class="swiper-button-next"></div>
 											</div>
 											<div class="work-card__group">
-												<div class="discount">Скидка 50%</div>
-												<div class="hit">Хит продаж</div>
-												<div class="professional">Выбор профессионалов</div>
 												<div class="sale">Распродажа</div>
 											</div>
 											<div class="work-card__increase">
@@ -4157,7 +4155,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4190,22 +4188,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery21">
+															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery5">
 																<img src="img/work-card__img5.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery21">
+															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery5">
 																<img src="img/work-card__img5.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery21">
+															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery5">
 																<img src="img/work-card__img5.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery21">
+															<a href="img/work-card__img5.png" class="work-card__img" data-fancybox="gallery5">
 																<img src="img/work-card__img5.png" alt="">
 															</a>
 														</div>
@@ -4232,7 +4230,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4265,22 +4263,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery22">
+															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery6">
 																<img src="img/work-card__img6.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery22">
+															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery6">
 																<img src="img/work-card__img6.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery22">
+															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery6">
 																<img src="img/work-card__img6.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery22">
+															<a href="img/work-card__img6.png" class="work-card__img" data-fancybox="gallery6">
 																<img src="img/work-card__img6.png" alt="">
 															</a>
 														</div>
@@ -4292,10 +4290,6 @@
 											</div>
 											<div class="work-card__group">
 												<div class="discount">Скидка 50%</div>
-												<div class="delivery">Бесплатная доставка</div>
-												<div class="hit">Хит продаж</div>
-												<div class="professional">Выбор профессионалов</div>
-												<div class="sale">Распродажа</div>
 											</div>
 											<div class="work-card__increase">
 												<img src="img/increase-icon.svg" alt="">
@@ -4311,7 +4305,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4344,22 +4338,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery23">
+															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery7">
 																<img src="img/work-card__img7.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery23">
+															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery7">
 																<img src="img/work-card__img7.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery23">
+															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery7">
 																<img src="img/work-card__img7.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery23">
+															<a href="img/work-card__img7.png" class="work-card__img" data-fancybox="gallery7">
 																<img src="img/work-card__img7.png" alt="">
 															</a>
 														</div>
@@ -4386,7 +4380,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4419,22 +4413,22 @@
 												<div class="swiper mySwiper2">
 													<div class="swiper-wrapper">
 														<div class="swiper-slide">
-															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery24">
+															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery8">
 																<img src="img/work-card__img8.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery24">
+															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery8">
 																<img src="img/work-card__img8.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery24">
+															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery8">
 																<img src="img/work-card__img8.png" alt="">
 															</a>
 														</div>
 														<div class="swiper-slide">
-															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery24">
+															<a href="img/work-card__img8.png" class="work-card__img" data-fancybox="gallery8">
 																<img src="img/work-card__img8.png" alt="">
 															</a>
 														</div>
@@ -4458,7 +4452,7 @@
 											<div class="work-card__group2">
 												<div class="work-card__price-wrap">
 													<div class="work-card__price-news">60,000 ₽</div>
-													<div class="work-card__price-old">120 000</div>
+													<div class="work-card__price-old">120 000 ₽</div>
 													<div class="work-card__discount">-50%</div>
 												</div>
 												<div class="work-card__favorite">
@@ -4936,6 +4930,12 @@
                             <li><a href="">Безопасная сделка</a></li>
                         </ul>
                     </div>
+                </div>
+                <div class="footer__language custom_select">
+                    <select>
+                        <option value="">RU</option>
+                        <option value="">ENG</option>
+                    </select>
                 </div>
             </div>
             <div class="footer__group">
