@@ -2615,8 +2615,8 @@
 								</div>
 							</div>
 							<div class="profile__info">
-								<div class="profile__info-item">Подписчики <span>45</span></div>
-								<div class="profile__info-item">Подписки <span>634</span></div>
+								<a href="" class="profile__info-item">Подписчики <span>45</span></a>
+								<a href="" class="profile__info-item">Подписки <span>634</span></a>
 							</div>
 							<div class="profile__btns">
 								<button class="profile__btn btn btn-blue">
@@ -2653,58 +2653,18 @@
 									</div>
 								</div>
 								<div class="profile__item-hidden item-hidden">
-									<div class="profile__subitems">
-										<div class="profile__subitem">
-											<div class="profile__subitem-show item-show item-show--active">
-												<div class="profile__subitem-title">О магазине</div>
-											</div>
-											<div class="profile__subitem-hidden item-hidden item-hidden--active">
-												<ul class="profile__subitem-list">
-													<li><a class="active" href="">Магазин <span>456</span></a></li>
-													<li><a href="">Отзывы <span>12</span></a></li>
-													<li><a href="">Оплата и доставка</a></li>
-													<li><a href="">Персональный заказ</a></li>
-													<li><a href="">Награды <span>67</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="profile__subitem">
-											<div class="profile__subitem-show item-show">
-												<div class="profile__subitem-title">Блог <span>456</span></div>
-											</div>
-											<div class="profile__subitem-hidden item-hidden">
-												<ul class="profile__subitem-list">
-													<li><a href="">Отзывы <span>12</span></a></li>
-													<li><a href="">Оплата и доставка</a></li>
-													<li><a href="">Персональный заказ</a></li>
-													<li><a href="">Награды <span>67</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="profile__subitem">
-											<div class="profile__subitem-show item-show">
-												<div class="profile__subitem-title">Выставки <span>78</span></div>
-											</div>
-											<div class="profile__subitem-hidden item-hidden">
-												<ul class="profile__subitem-list">
-													<li><a href="">Отзывы <span>12</span></a></li>
-													<li><a href="">Оплата и доставка</a></li>
-													<li><a href="">Персональный заказ</a></li>
-													<li><a href="">Награды <span>67</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="profile__subitem">
-											<div class="profile__subitem-show item-show">
-												<div class="profile__subitem-title">Мероприятия <span>179</span></div>
-											</div>
-											<div class="profile__subitem-hidden item-hidden">
-												<ul class="profile__subitem-list">
-													<li><a href="">Отзывы <span>12</span></a></li>
-													<li><a href="">Оплата и доставка</a></li>
-													<li><a href="">Персональный заказ</a></li>
-													<li><a href="">Награды <span>67</span></a></li>
-												</ul>
+									<div class="profile__item-slider">
+										<div class="swiper mySwiper">
+											<div class="swiper-wrapper">
+												<a href="" class="swiper-slide profile__item-link">О магазине</a>
+												<a href="" class="swiper-slide profile__item-link active">Магазин <span>456</span></a>
+												<a href="" class="swiper-slide profile__item-link">Отзывы <span>12</span></a>
+												<a href="" class="swiper-slide profile__item-link">Оплата и доставка</a>
+												<a href="" class="swiper-slide profile__item-link">Персональный заказ</a>
+												<a href="" class="swiper-slide profile__item-link">Награды <span>67</span></a>
+												<a href="" class="swiper-slide profile__item-link border">Блог <span>456</span></a>
+												<a href="" class="swiper-slide profile__item-link border">Выставки <span>78</span></a>
+												<a href="" class="swiper-slide profile__item-link border">Мероприятия <span>179</span></a>
 											</div>
 										</div>
 									</div>
@@ -2714,40 +2674,44 @@
 						<div class="profile__right">
 							<h1 class="profile__title">Магазин <span class="title-text">456 товаров</span></h1>
 							<div class="profile__selects">
-								<div class="profile__select custom_select">
-									<select>
-										<option value="">По умолчанию</option>
-										<option value="">По популярности</option>
-										<option value="">Премиум работы</option>
-										<option value="">По возрастанию (цена)</option>
-										<option value="">По убыванию (цена)</option>
-										<option value="">По дате загрузки (новое)</option>
-										<option value="">По дате загрузки (старый)</option>
-									</select>
-								</div>
-								<div class="profile__select quantity-select custom_select">
-									<select>
-										<option value="">20шт</option>
-										<option value="">40шт</option>
-										<option value="">60шт</option>
-										<option value="">100шт</option>
-									</select>
-								</div>
-								<div class="profile__select custom_select">
-									<select>
-										<option value="">Все товары</option>
-										<option value="">Все товары</option>
-										<option value="">Все товары</option>
-										<option value="">Все товары</option>
-									</select>
-								</div>
-								<div class="profile__select custom_select">
-									<select>
-										<option value="">Подборка товаров</option>
-										<option value="">Подборка товаров</option>
-										<option value="">Подборка товаров</option>
-										<option value="">Подборка товаров</option>
-									</select>
+								<div class="swiper mySwiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide profile__select custom_select">
+											<select>
+												<option value="">По умолчанию</option>
+												<option value="">По популярности</option>
+												<option value="">Премиум работы</option>
+												<option value="">По возрастанию (цена)</option>
+												<option value="">По убыванию (цена)</option>
+												<option value="">По дате загрузки (новое)</option>
+												<option value="">По дате загрузки (старый)</option>
+											</select>
+										</div>
+										<div class="swiper-slide profile__select quantity-select custom_select">
+											<select>
+												<option value="">20шт</option>
+												<option value="">40шт</option>
+												<option value="">60шт</option>
+												<option value="">100шт</option>
+											</select>
+										</div>
+										<div class="swiper-slide profile__select custom_select">
+											<select>
+												<option value="">Все товары</option>
+												<option value="">Все товары</option>
+												<option value="">Все товары</option>
+												<option value="">Все товары</option>
+											</select>
+										</div>
+										<div class="swiper-slide profile__select custom_select">
+											<select>
+												<option value="">Подборка товаров</option>
+												<option value="">Подборка товаров</option>
+												<option value="">Подборка товаров</option>
+												<option value="">Подборка товаров</option>
+											</select>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="profile__cards">
