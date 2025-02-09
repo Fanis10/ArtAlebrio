@@ -25,12 +25,147 @@
 							<li><a href="contests.html">Конкурсы</a></li>
 							<li><a href="contests2.html">Конкурсы 2</a></li>
 							<li><a href="product-card.html">Карточка товара</a></li>
+							<li><a href="product-card2.html">Карточка товара 2</a></li>
+							<li><a href="registration.html">Ввойдите в аккаунт</a></li>
+							<li><a href="registration2.html">Создайте свой аккаунт</a></li>
+							<li>
+								<button class="navigation__btn btn btn-blue" data-modal="contactModal">
+									<span class="btn-red__text">Ввойдите в аккаунт</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-blue" data-modal="contactModal2">
+									<span class="btn-red__text">Создайте свой аккаунт</span>
+								</button>
+							</li>
 						</ul>
 					</div>
 				</div>
 			</section>
 		</main>
 	</div>
+
+	<div class="modal" id="contactModal">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M13 1L1 13" stroke="#9F9F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M1 1L13 13" stroke="#9F9F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</button>
+			<div class="modal__content">
+				<div class="registration__title form-title">Ввойдите в аккаунт</div>
+				<form class="registration-form form">
+					<div class="registration-form__wrap form-wrap">
+						<div class="registration-form__group form-group">
+							<span class="input-icon"><img src="img/email-icon.svg" alt=""></span>
+							<input type="email" placeholder="Ваш емейл">
+						</div>
+						<div class="registration-form__group form-group password-group">
+							<span class="input-icon"><img src="img/password-icon.svg" alt=""></span>
+							<input class="password-input" type="password" placeholder="Ваш пароль">
+							<span class="password-btn">
+										<img src="img/show-icon.svg" alt="">
+									</span>
+						</div>
+					</div>
+					<div class="forgot-password">
+						<a href="">Забыли пароль?</a>
+					</div>
+					<button class="registration__btn form-btn btn btn-blue">
+						<span>Войти в аккаунт</span>
+					</button>
+					<div class="registration-form__register form-register">
+						<div class="registration-form__register-text form-register__text">
+							<p>Нет аккаунта? <a href="registration2.html">Зарегистрироваться</a></p>
+							<p><span>Или</span></p>
+						</div>
+						<div class="registration-form__socials form-socials">
+							<a class="registration-form__social form-social" href="">
+								<img src="img/social.svg" alt="">
+							</a>
+							<a class="registration-form__social form-social" href="">
+								<img src="img/social2.svg" alt="">
+							</a>
+							<a class="registration-form__social form-social" href="">
+								<img src="img/social3.svg" alt="">
+							</a>
+							<a class="registration-form__social form-social" href="">
+								<img src="img/social4.svg" alt="">
+							</a>
+							<a class="registration-form__social form-social" href="">
+								<img src="img/social5.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="registration-form__text form-text">
+						Нажимая «Войти в аккаунт», Войти с аккаунтом Google, Facebook, или Apple, вы принимаете 
+						<a href="">Условия использования</a> и 
+						<a href="">Политику конфиденциальности</a> 
+					</div>
+					<div class="registration-form__text2 form-text2">
+						Art Alebrio может отправлять вам сообщения, но вы можете изменить настройки уведомлений в аккаунте. Мы не делаем публикации без вашего разрешения.
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="contactModal2">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M13 1L1 13" stroke="#9F9F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+					<path d="M1 1L13 13" stroke="#9F9F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</button>
+			<div class="modal__content">
+				<div class="registration__title form-title">Создайте свой аккаунт</div>
+				<form class="registration-form form">
+					<div class="registration-form__wrap form-wrap">
+						<div class="registration-form__group form-group">
+							<span class="input-icon"><img src="img/user-icon4.svg" alt=""></span>
+							<input type="email" placeholder="Ваше имя">
+						</div>
+						<div class="registration-form__group form-group">
+							<span class="input-icon"><img src="img/email-icon.svg" alt=""></span>
+							<input type="email" placeholder="Ваш емейл">
+						</div>
+						<div class="registration-form__group form-group password-group">
+							<span class="input-icon"><img src="img/password-icon.svg" alt=""></span>
+							<input class="password-input" type="password" placeholder="Ваш пароль">
+							<span class="password-btn">
+										<img src="img/show-icon.svg" alt="">
+									</span>
+						</div>
+						<div class="registration-form__group form-group password-group">
+							<span class="input-icon"><img src="img/password-icon.svg" alt=""></span>
+							<input class="password-input" type="password" placeholder="Пароль еще раз">
+							<span class="password-btn">
+										<img src="img/show-icon.svg" alt="">
+									</span>
+						</div>
+					</div>
+					<button class="registration__btn form-btn btn btn-blue">
+						<span>Зарегистрироваться</span>
+					</button>
+					<div class="registration-form__register form-register">
+						<div class="registration-form__register-text form-register__text">
+							<p>Уже есть аккаунт? <a href="registration.html">Войти</a></p>
+						</div>
+					</div>
+					<div class="registration-form__text form-text">
+						Нажимая «Войти в аккаунт», Войти с аккаунтом Google, Facebook, или Apple, вы принимаете 
+						<a href="">Условия использования</a> и 
+						<a href="">Политику конфиденциальности</a> 
+					</div>
+					<div class="registration-form__text2 form-text2">
+						Art Alebrio может отправлять вам сообщения, но вы можете изменить настройки уведомлений в аккаунте. Мы не делаем публикации без вашего разрешения.
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 
@@ -40,20 +175,24 @@
 	.navigation {
 		padding: 50px 0;
 	}
-
 	.navigation__list {
 		display: grid;
 		grid-template-columns: 100%;
 		gap: 24px;
 	}
-
 	.navigation__list li a {
 		font-size: 24px;
 		line-height: 130%;
 	}
-
 	.navigation__list li a:hover {
 		color: #5856D2;
+	}
+	.navigation__btn {
+		height: 60px;
+		padding: 5px 40px;
+	}
+	.navigation__btn span {
+		font-size: 24px;
 	}
 </style>
 
